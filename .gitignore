@@ -43,10 +43,6 @@ outputs/checkpoint/*/adapter_model.bin
 outputs/checkpoint/*/*.pt
 outputs/checkpoint/*/*.pth
 outputs/checkpoint/*/*.ckpt
-outputs/checkpoint/*.jsonl
-outputs/checkpoint/*/*.jsonl
-outputs/*.jsonl
-outputs/*/*.jsonl
 
 # Logs
 *.log
