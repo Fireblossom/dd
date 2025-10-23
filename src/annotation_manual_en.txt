@@ -1,0 +1,73 @@
+Data Source: Social media comments from real users in various cities discussing what counts as a "local."
+Your Task: Infer the speaker's criteria for defining a "local" and select one or more from the provided standards. If the text does not mention any criterion, select "No Mentioned Criteria" at the end. If you believe there are criteria beyond the options, you may select "Other Criteria Mentioned" and input your suggested criterion in the text box that appears.
+
+A. Criteria for Urban Residents' Recognition of "Local" Identity
+
+1. Objective Criteria
+Judgment Guideline: Can it be verified through archives, documents, or quantifiable facts, without involving personal feelings or social evaluation?
+
+●1.1 Current Residence (Individual Life Course)
+○Refers only to the individual's current place of residence ("if you're here, you're a local").
+
+●1.2 Birth and Upbringing (Individual Life Course)
+○Covers the individual's life trajectory and experiences.
+
+●1.3 Administrative or Legal Recognition (Administrative Identity)
+○Covers identity and qualifications granted by government or official institutions.
+○Includes: household registration location (hukou), ID number.
+
+●1.4 Family Heritage (Family History & Heritage)
+○Covers the individual's family and ancestral historical roots and heritage.
+○Includes: parents'/grandparents' experiences, number of generations the family has been settled locally.
+
+●1.5 Assets and Rights (Assets & Entitlements)
+○Covers economic assets and rights directly related to the locality.
+○Includes: property, land, village collective dividend rights.
+
+●1.6 Intra-city Geographical Boundary (Intra-city Geographical Boundary)
+○Distinction Note: Unlike "1.1 Current Residence," this category does not mean "living in/settling in the locality," but rather emphasizes "using an intra-city boundary as the threshold for being considered a local." Whether one crosses this "line" (spatial boundary) itself determines identity, regardless of long-term residence, household registration, family/assets, etc.
+○Key Judgment Points (must satisfy both "boundary + threshold" elements):
+  — Boundary: Explicit intra-city boundary or core area terminology appears, such as city walls/moats, (inner/outer) city, old city/old city district, core area, (first/second/third) ring road, inner/outer ring, city's eight districts, old three districts/six districts, specific county/street/district lists, etc.
+  — Threshold: Paired with exclusive phrasing like "only recognize/only counts if/must/inside/outside/inside counts/outside doesn't count," expressing the meaning "counts if inside the boundary/doesn't count if outside."
+○Positive Examples:
+  — "Only inside the Second Ring counts as Beijinger," "Only recognize the old three districts as locals," "Only inside the moat counts as indigenous."
+○Negative Examples (should be classified into other categories, not this one):
+  — Only saying "living in the urban area/city/locality/a certain district" without expressing boundary threshold (→ 1.1 Current Residence).
+  — "Grew up locally/born and raised" (→ 1.2 Birth and Upbringing).
+  — "Local hukou/ID card/household registration" (→ 1.3 Administrative or Legal Recognition).
+  — "Ancestors/generations in the city/old Beijinger/Weitou" (→ 1.4 Family Heritage).
+
+2. Socio-Cultural & Psychological Criteria
+Judgment Guideline: This category is ordered by the depth of individual integration, from the most basic self-awareness to final community acceptance.
+
+●2.1 Self-Identification
+○Covers the individual's cognitive definition and declaration.
+○The core question is: "If you consider yourself a local, then you are one?"
+
+●2.2 Sense of Belonging
+○Covers the individual's emotional connection and loyalty to the city, a deeper level than mere self-positioning.
+○The core question is: "Does a person truly consider this city home from the bottom of their heart?"
+
+●2.3 Linguistic Ability
+○Covers mastery and use of the local dialect. This is a key skill for individuals actively integrating into the cultural circle.
+○Includes: ability to understand, ability to speak, authenticity of accent.
+
+●2.4 Cultural Practices & Knowledge
+○Covers deeper cultural characteristics, beyond language, that individuals acquire and demonstrate.
+○Includes: lifestyle habits (diet, consumption), behavioral etiquette (manners, style), cultural knowledge (local memory).
+
+●2.5 Community Acceptance
+○Covers whether the individual is perceived, recognized, and accepted as "one of us" by the local community, the ultimate manifestation of integration.
+○Judgment criteria include:
+■Intuition and temperament judgment: Whether one is considered to have the overall "feel" or "temperament" of a local (e.g., "can tell at a glance").
+■Interpersonal network composition: Whether one has many local friends, whether one can integrate into local social circles.
+
+B. Please judge the tone/phrasing in which this passage proposes the "insider" criteria. How does it feel to you:
+
+●Inclusive, Open — Conditions are broad, giving a feeling of tolerance (e.g., using "as long as... then...," "whatever...," "all acceptable").
+●Neutral — No obvious inclination toward inclusion or exclusion.
+●Restrictive, Exclusive — Conditions are strict or limiting, giving a feeling of exclusion or rejection (e.g., using "only if... then...," "must...," "if not, then not one of us").
+
+Optional Action:
+Please copy and paste the specific words/phrases from this passage that make you feel it is inclusive or exclusive (e.g., "as long as... then...," "only if... then..."), as evidence for your judgment.
+

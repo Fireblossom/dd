@@ -1,0 +1,12 @@
+{
+  "eval_loss": 1.259696364402771,
+  "eval_labels_micro_f1": 0.4280936454849498,
+  "eval_labels_macro_f1": 0.4037144425496757,
+  "eval_labels_jaccard": 0.2134060595087211,
+  "eval_openness_accuracy": 0.6692015209125475,
+  "eval_openness_f1": 0.6627653569010692,
+  "eval_runtime": 2.0559,
+  "eval_samples_per_second": 127.925,
+  "eval_steps_per_second": 2.432,
+  "epoch": 3.0
+}

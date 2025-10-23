@@ -1,0 +1,12 @@
+{
+  "labels_micro_f1": 0.7667560321715817,
+  "labels_macro_f1": 0.6407078894860727,
+  "labels_jaccard": 0.6779467680608365,
+  "openness_accuracy": 0.6577946768060836,
+  "openness_f1": 0.6556645104141867,
+  "openness_precision_macro": 0.6613300492610837,
+  "openness_precision_micro": 0.6577946768060836,
+  "openness_recall_macro": 0.6749146752679857,
+  "openness_recall_micro": 0.6577946768060836,
+  "num_samples": 263
+}

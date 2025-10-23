@@ -1,0 +1,15 @@
+{
+  "openness_accuracy": 0.6692015209125475,
+  "openness_f1_macro": 0.6538364088531313,
+  "openness_f1_micro": 0.6692015209125475,
+  "openness_precision_macro": 0.6636663324522226,
+  "openness_precision_micro": 0.6692015209125475,
+  "openness_recall_macro": 0.6570727977430327,
+  "openness_recall_micro": 0.6692015209125475,
+  "openness_num_samples": 263,
+  "openness_classes": [
+    "紧缩排斥",
+    "中性",
+    "宽容开放"
+  ]
+}
