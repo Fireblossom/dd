@@ -43,14 +43,10 @@ outputs/checkpoint/*/adapter_model.bin
 outputs/checkpoint/*/*.pt
 outputs/checkpoint/*/*.pth
 outputs/checkpoint/*/*.ckpt
-
-# Predictions and results (can be regenerated)
+outputs/checkpoint/*.jsonl
+outputs/checkpoint/*/*.jsonl
 outputs/*.jsonl
 outputs/*/*.jsonl
-outputs/ft/*.jsonl
-outputs/zs/*.jsonl
-outputs/ft_clean/*.jsonl
-outputs/zs_clean/*.jsonl
 
 # Logs
 *.log
