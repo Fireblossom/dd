@@ -1,0 +1,84 @@
+{
+  "profiles": {
+    "北京": {
+      "Residence": 0.025380710659898477,
+      "Birth/Upbringing": 0.1218274111675127,
+      "Legal/Admin Status": 0.28426395939086296,
+      "Family Heritage": 0.3248730964467005,
+      "Property/Assets": 0.005076142131979695,
+      "Intra-city Region": 0.17258883248730963,
+      "Self-Identification": 0.015228426395939087,
+      "Sense of Belonging": 0.06091370558375635,
+      "Language Ability": 0.116751269035533,
+      "Cultural Practice": 0.20304568527918782,
+      "Community Acceptance": 0.01015228426395939
+    },
+    "上海": {
+      "Residence": 0.02912621359223301,
+      "Birth/Upbringing": 0.07766990291262135,
+      "Legal/Admin Status": 0.2815533980582524,
+      "Family Heritage": 0.24757281553398058,
+      "Property/Assets": 0.04854368932038835,
+      "Intra-city Region": 0.2766990291262136,
+      "Self-Identification": 0.014563106796116505,
+      "Sense of Belonging": 0.043689320388349516,
+      "Language Ability": 0.27184466019417475,
+      "Cultural Practice": 0.18446601941747573,
+      "Community Acceptance": 0.0048543689320388345
+    },
+    "广州": {
+      "Residence": 0.014778325123152709,
+      "Birth/Upbringing": 0.024630541871921183,
+      "Legal/Admin Status": 0.11330049261083744,
+      "Family Heritage": 0.3054187192118227,
+      "Property/Assets": 0.06403940886699508,
+      "Intra-city Region": 0.2315270935960591,
+      "Self-Identification": 0.009852216748768473,
+      "Sense of Belonging": 0.019704433497536946,
+      "Language Ability": 0.2561576354679803,
+      "Cultural Practice": 0.14285714285714285,
+      "Community Acceptance": 0.019704433497536946
+    },
+    "深圳": {
+      "Residence": 0.020512820512820513,
+      "Birth/Upbringing": 0.046153846153846156,
+      "Legal/Admin Status": 0.13846153846153847,
+      "Family Heritage": 0.6307692307692307,
+      "Property/Assets": 0.39487179487179486,
+      "Intra-city Region": 0.046153846153846156,
+      "Self-Identification": 0.07179487179487179,
+      "Sense of Belonging": 0.035897435897435895,
+      "Language Ability": 0.1641025641025641,
+      "Cultural Practice": 0.03076923076923077,
+      "Community Acceptance": 0.015384615384615385
+    }
+  },
+  "openness": {
+    "北京": {
+      "Inclusive": 0.07653061224489796,
+      "Neutral": 0.6071428571428571,
+      "Restrictive": 0.3163265306122449
+    },
+    "上海": {
+      "Inclusive": 0.15048543689320387,
+      "Neutral": 0.6213592233009708,
+      "Restrictive": 0.22815533980582525
+    },
+    "广州": {
+      "Inclusive": 0.08743169398907104,
+      "Neutral": 0.41530054644808745,
+      "Restrictive": 0.4972677595628415
+    },
+    "深圳": {
+      "Inclusive": 0.06217616580310881,
+      "Neutral": 0.45595854922279794,
+      "Restrictive": 0.48186528497409326
+    }
+  },
+  "sample_counts": {
+    "上海": 206,
+    "广州": 203,
+    "北京": 197,
+    "深圳": 195
+  }
+}

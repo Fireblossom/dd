@@ -1,0 +1,41 @@
+{
+  "paper_table": "Belonging Criteria (multi-label) - Table tab:combined_belonging",
+  "metrics": ["labels_micro_f1", "labels_macro_f1", "labels_jaccard"],
+  "notes": [
+    "These entries are extracted from checkpoint evaluation metrics.",
+    "Full prediction dumps/checkpoints are kept under archive/ (gitignored)."
+  ],
+  "entries": [
+    {
+      "model": "Qwen-3",
+      "regime_in_paper": "labels-only",
+      "dataset": "labels_only_test",
+      "checkpoint_step": 32,
+      "labels_micro_f1": 0.8115183246073299,
+      "labels_macro_f1": 0.6686428734596297,
+      "labels_jaccard": 0.7116241173275394,
+      "source_metrics_file": "archive/outputs/checkpoint_full/qwen+label_only+32.metrics.json"
+    },
+    {
+      "model": "Yi-1.5",
+      "regime_in_paper": "labels-with-phrase",
+      "dataset": "labels_withphrase_test",
+      "checkpoint_step": 21,
+      "labels_micro_f1": 0.8319559228650137,
+      "labels_macro_f1": 0.6652314451968236,
+      "labels_jaccard": 0.7379594423320658,
+      "source_metrics_file": "archive/outputs/checkpoint_full/yi+label_phrase+21.metrics.json"
+    },
+    {
+      "model": "Gemma-3",
+      "regime_in_paper": "labels-with-phrase",
+      "dataset": "labels_withphrase_test",
+      "checkpoint_step": 27,
+      "labels_micro_f1": 0.8342245989304813,
+      "labels_macro_f1": 0.7069949302860405,
+      "labels_jaccard": 0.7452471482889734,
+      "source_metrics_file": "archive/outputs/checkpoint_full/gemma+label_phrase+27.metrics.json"
+    }
+  ]
+}
+

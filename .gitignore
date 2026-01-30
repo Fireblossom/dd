@@ -56,3 +56,15 @@ Thumbs.db
 *.tmp
 *.temp
 
+.python-version
+main.py
+
+# Local-only archive (raw data, large artifacts)
+archive/
+
+# Generated artifacts that are too large / not for review repo
+outputs/**/*.jsonl
+outputs/checkpoint/**
+!outputs/checkpoint/summary.csv
+.venv/
+paper/

@@ -1,0 +1,75 @@
+{
+  "variants": {
+    "A": {
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "tone_accuracy": 0.35,
+      "num_samples": 20,
+      "city_label_distribution": {
+        "beijing": {},
+        "shanghai": {},
+        "guangzhou": {},
+        "shenzhen": {}
+      },
+      "label_space": [
+        "未提及任何标准"
+      ]
+    },
+    "B": {
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "tone_accuracy": 0.3,
+      "num_samples": 20,
+      "city_label_distribution": {
+        "beijing": {},
+        "shanghai": {},
+        "guangzhou": {},
+        "shenzhen": {}
+      },
+      "label_space": [
+        "未提及任何标准"
+      ]
+    },
+    "C": {
+      "micro_f1": 1.0,
+      "macro_f1": 1.0,
+      "tone_accuracy": 0.35,
+      "num_samples": 20,
+      "city_label_distribution": {
+        "beijing": {},
+        "shanghai": {},
+        "guangzhou": {},
+        "shenzhen": {}
+      },
+      "label_space": [
+        "未提及任何标准"
+      ]
+    }
+  },
+  "consistency": {
+    "shanghai": {
+      "expected_label": "社会文化与心理标准|个人的语言能力",
+      "rankings": [],
+      "is_consistent": true
+    },
+    "shenzhen": {
+      "expected_label": "客观标准|个人或家族在当地的资产与权益",
+      "rankings": [],
+      "is_consistent": true
+    },
+    "guangzhou": {
+      "expected_label": "社会文化与心理标准|个人的语言能力",
+      "rankings": [],
+      "is_consistent": true
+    },
+    "beijing": {
+      "expected_label": "客观标准|家族在当地的历史传承",
+      "rankings": [],
+      "is_consistent": true
+    }
+  },
+  "summary": {
+    "mean_micro_f1": 1.0,
+    "std_micro_f1": 0.0
+  }
+}

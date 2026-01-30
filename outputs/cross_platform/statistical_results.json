@@ -1,0 +1,195 @@
+{
+  "iaa": {
+    "openness": {
+      "cohen_kappa": 0.609,
+      "percent_agreement": 78.0,
+      "n": 771
+    },
+    "criteria": {
+      "Legal/Admin Status": 0.834,
+      "Cultural Practice": 0.858,
+      "Birth/Upbringing": 0.678,
+      "Residence": 0.553,
+      "Self-Identification": 0.657,
+      "Sense of Belonging": 0.684,
+      "Intra-city Region": 0.83,
+      "Language Ability": 0.9,
+      "Property/Assets": 0.882,
+      "Family Heritage": 0.851
+    },
+    "criteria_mean_kappa": 0.773
+  },
+  "chi_square": {
+    "platform_openness": {
+      "chi2": 121.92,
+      "p_value": 0.0,
+      "dof": 4,
+      "significant": 1
+    },
+    "criteria_tests": {
+      "Legal/Admin Status": {
+        "chi2": 6.15,
+        "p_value": 0.0461,
+        "significant": 1
+      },
+      "Cultural Practice": {
+        "chi2": 11.15,
+        "p_value": 0.0038,
+        "significant": 1
+      },
+      "Self-Identification": {
+        "chi2": 21.09,
+        "p_value": 0.0,
+        "significant": 1
+      },
+      "Sense of Belonging": {
+        "chi2": 14.63,
+        "p_value": 0.0007,
+        "significant": 1
+      },
+      "Intra-city Region": {
+        "chi2": 70.76,
+        "p_value": 0.0,
+        "significant": 1
+      },
+      "Language Ability": {
+        "chi2": 22.18,
+        "p_value": 0.0,
+        "significant": 1
+      }
+    }
+  },
+  "text_length": {
+    "by_platform": {
+      "抖音": {
+        "mean": 51.7,
+        "std": 40.1,
+        "median": 40.0
+      },
+      "微信视频号": {
+        "mean": 34.0,
+        "std": 35.8,
+        "median": 24.5
+      },
+      "小红书": {
+        "mean": 46.7,
+        "std": 40.6,
+        "median": 33.0
+      }
+    }
+  },
+  "city_profiles": {
+    "广州": {
+      "Intra-city Region": 0.14512471655328799,
+      "Property/Assets": 0.02947845804988662,
+      "Family Heritage": 0.14058956916099774,
+      "Legal/Admin Status": 0.1360544217687075,
+      "Community Acceptance": 0.024943310657596373,
+      "Language Ability": 0.3310657596371882,
+      "Sense of Belonging": 0.049886621315192746,
+      "Cultural Practice": 0.14965986394557823,
+      "Residence": 0.006802721088435374,
+      "Self-Identification": 0.04081632653061224,
+      "Birth/Upbringing": 0.011337868480725623,
+      "None Mentioned": 0.20408163265306123
+    },
+    "深圳": {
+      "Language Ability": 0.12432432432432433,
+      "Family Heritage": 0.3324324324324324,
+      "Property/Assets": 0.20810810810810812,
+      "Residence": 0.010810810810810811,
+      "Legal/Admin Status": 0.13783783783783785,
+      "Self-Identification": 0.10540540540540541,
+      "Birth/Upbringing": 0.024324324324324326,
+      "Sense of Belonging": 0.04864864864864865,
+      "Intra-city Region": 0.02702702702702703,
+      "Community Acceptance": 0.02972972972972973,
+      "Cultural Practice": 0.04054054054054054,
+      "None Mentioned": 0.25135135135135134
+    },
+    "上海": {
+      "Intra-city Region": 0.1319796954314721,
+      "Legal/Admin Status": 0.29314720812182743,
+      "Family Heritage": 0.06472081218274112,
+      "Cultural Practice": 0.19035532994923857,
+      "Language Ability": 0.383248730964467,
+      "Property/Assets": 0.012690355329949238,
+      "Sense of Belonging": 0.08121827411167512,
+      "Self-Identification": 0.04314720812182741,
+      "Birth/Upbringing": 0.02030456852791878,
+      "Residence": 0.007614213197969543,
+      "Community Acceptance": 0.015228426395939087,
+      "None Mentioned": 0.16624365482233502
+    },
+    "北京": {
+      "Legal/Admin Status": 0.22992700729927007,
+      "Residence": 0.009124087591240875,
+      "Birth/Upbringing": 0.043795620437956206,
+      "Community Acceptance": 0.04927007299270073,
+      "Cultural Practice": 0.19708029197080293,
+      "Language Ability": 0.12226277372262774,
+      "Intra-city Region": 0.10583941605839416,
+      "Self-Identification": 0.058394160583941604,
+      "Family Heritage": 0.11678832116788321,
+      "Sense of Belonging": 0.07116788321167883,
+      "Property/Assets": 0.0018248175182481751,
+      "None Mentioned": 0.2518248175182482
+    }
+  },
+  "platform_profiles": {
+    "抖音": {
+      "Intra-city Region": 0.18491484184914841,
+      "Property/Assets": 0.14841849148418493,
+      "Family Heritage": 0.48418491484184917,
+      "Legal/Admin Status": 0.2360097323600973,
+      "Community Acceptance": 0.0072992700729927005,
+      "Language Ability": 0.19951338199513383,
+      "Sense of Belonging": 0.0413625304136253,
+      "Cultural Practice": 0.10462287104622871,
+      "Residence": 0.004866180048661801,
+      "Self-Identification": 0.029197080291970802,
+      "Birth/Upbringing": 0.0413625304136253
+    },
+    "微信视频号": {
+      "Self-Identification": 0.02564102564102564,
+      "Language Ability": 0.2076923076923077,
+      "Property/Assets": 0.10256410256410256,
+      "Family Heritage": 0.258974358974359,
+      "Intra-city Region": 0.18205128205128204,
+      "Legal/Admin Status": 0.1717948717948718,
+      "Community Acceptance": 0.017948717948717947,
+      "Cultural Practice": 0.1794871794871795,
+      "Birth/Upbringing": 0.09487179487179487,
+      "Residence": 0.041025641025641026,
+      "Sense of Belonging": 0.038461538461538464,
+      "None Mentioned": 0.046153846153846156
+    },
+    "小红书": {
+      "None Mentioned": 0.3224368499257058,
+      "Cultural Practice": 0.16790490341753342,
+      "Community Acceptance": 0.03789004457652303,
+      "Legal/Admin Status": 0.22585438335809807,
+      "Intra-city Region": 0.06612184249628529,
+      "Self-Identification": 0.075037147102526,
+      "Language Ability": 0.29569093610698366,
+      "Sense of Belonging": 0.0824665676077266
+    }
+  },
+  "openness_dist": {
+    "抖音": {
+      "Restrictive": 0.3955773955773956,
+      "Neutral": 0.5307125307125307,
+      "Inclusive": 0.07371007371007371
+    },
+    "微信视频号": {
+      "Restrictive": 0.3557951482479784,
+      "Neutral": 0.5256064690026954,
+      "Inclusive": 0.11859838274932614
+    },
+    "小红书": {
+      "Inclusive": 0.22213967310549776,
+      "Neutral": 0.30534918276374445,
+      "Restrictive": 0.4725111441307578
+    }
+  }
+}

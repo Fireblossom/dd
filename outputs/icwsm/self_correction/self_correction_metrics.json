@@ -1,0 +1,8 @@
+{
+  "num_samples": 263,
+  "stage1_accuracy": 0.3840304182509506,
+  "stage2_accuracy": 0.23193916349809887,
+  "improvement": -0.1520912547528517,
+  "correction_count": 96,
+  "correction_rate": 0.3650190114068441
+}

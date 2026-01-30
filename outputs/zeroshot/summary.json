@@ -1,0 +1,33 @@
+{
+  "zeroshot": {
+    "gemma": {
+      "accuracy": 0.68,
+      "macro_f1": 0.673,
+      "samples": 2009
+    },
+    "qwen": {
+      "accuracy": 0.666,
+      "macro_f1": 0.669,
+      "samples": 2001
+    },
+    "yi": {
+      "accuracy": 0.612,
+      "macro_f1": 0.614,
+      "samples": 2008
+    }
+  },
+  "finetuned": {
+    "gemma": {
+      "accuracy": 0.726,
+      "macro_f1": 0.736
+    },
+    "qwen": {
+      "accuracy": 0.729,
+      "macro_f1": 0.711
+    },
+    "yi": {
+      "accuracy": 0.73,
+      "macro_f1": 0.726
+    }
+  }
+}

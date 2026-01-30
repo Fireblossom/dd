@@ -1,0 +1,29 @@
+{
+  "sensitivity_A_only_test": {
+    "file_name": "sensitivity_A_only_test.jsonl",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "sensitivity_B_only_test": {
+    "file_name": "sensitivity_B_only_test.jsonl",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "sensitivity_C_only_test": {
+    "file_name": "sensitivity_C_only_test.jsonl",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}

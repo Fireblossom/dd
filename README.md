@@ -2,6 +2,8 @@
 
 This repository contains the data, code, and experimental artifacts for our submission on operationalizing local identity in urban Chinese discourse.
 
+Start with `REPRODUCIBILITY.md` for a quick run + artifact map.
+
 ## Repository Structure
 
 This repository is organized to facilitate reproducibility and corresponds directly to sections of the paper:
@@ -10,14 +12,13 @@ This repository is organized to facilitate reproducibility and corresponds direc
 **→ Paper Section 3.1 (Corpus Collection and Scope)**
 
 Contains city-stratified train/dev/test splits following an 8:1:1 ratio:
-- **14 cities** represented (Beijing, Shanghai, Guangzhou, Shenzhen, Hangzhou, Foshan, Nanjing, Chengdu, Suzhou, Hefei, Tianjin, Wuhan, Zhengzhou, Qingdao)
-- **2,510 annotated items** from 1,050 unique users (full dataset statistics)
+- **Included samples**: each CSV contains **only the header and 5 sample rows**
 - Split organization:
     - Per-city CSV files: `{city}_{train,dev,test}.csv`
     - Aggregated files: `all_{train,dev,test}.csv`
     - Summary statistics: `summary.json`
 
-**Note**: For review purposes, each CSV file contains only the header and 5 sample rows. The full dataset will be released upon paper acceptance under a Restricted Academic Use Agreement.
+**Note**: The full dataset will be released upon paper acceptance under a Restricted Academic Use Agreement.
 
 Corresponds to **Table 1** in the paper (city-level corpus composition).
 
@@ -46,29 +47,16 @@ Core scripts for data processing, training, and evaluation:
 ### `outputs/`
 **→ Paper Section 5 (Results)**
 
-Experimental outputs organized by model and condition:
+This directory contains **lightweight reports and figures** (PNG/PDF/MD/CSV).
+
+Large artifacts (e.g., checkpoint-level prediction dumps) are intentionally excluded.
 
 ```
 outputs/
-├── baseline_outputs/          # RoBERTa baseline results
-│   ├── comprehensive_metrics.json
-│   ├── test_metrics.json
-│   └── predictions.jsonl
-│
-├── checkpoint/                # Fine-tuned model checkpoints
-│   ├── qwen_labels_only/      # Qwen-3-32B (labels-only regime)
-│   ├── qwen_labels_phrase/    # Qwen-3-32B (labels-with-phrase regime)
-│   ├── yi_labels_only/        # Yi-1.5-34B-Chat
-│   ├── yi_labels_phrase/
-│   ├── gemma_labels_only/     # Gemma-3-27B-IT
-│   └── gemma_labels_phrase/
-│
-├── zs_clean/                  # Zero-shot predictions
-├── ft_clean/                  # Fine-tuned predictions
-│
-└── results/                   # Aggregated metrics
-    ├── ft_clean_fixed/        # Fine-tuned results (Tables 2-3)
-    └── zs_clean_fixed/        # Zero-shot results (Tables 2-3)
+├── city_profiles/             # City profile report + figures
+├── cross_platform/            # Cross-platform report
+├── icwsm/                     # External validity + sensitivity reports
+└── results/                   # Aggregated metrics/tables
 ```
 
 ---
@@ -202,7 +190,7 @@ See `src/EXPERIMENTS.md` for metrics details.
 | Model Configuration | Micro F1 | Macro F1 | Jaccard |
 |---------------------|----------|----------|---------|
 | RoBERTa-Large (baseline) | 0.487 | 0.466 | 0.194 |
-| **Gemma-3 (labels-only, fine-tuned)** | **0.834** | **0.706** | **0.745** |
+| **Gemma-3 (labels-with-phrase, fine-tuned)** | **0.834** | **0.706** | **0.745** |
 | Yi-1.5 (labels-with-phrase, fine-tuned) | 0.832 | 0.665 | 0.738 |
 | Qwen-3 (labels-only, fine-tuned) | 0.811 | 0.668 | 0.712 |
 
@@ -240,9 +228,3 @@ This research is descriptive in nature and aims to understand how social boundar
 - Profiling individuals or communities
 
 See paper Section: Ethical Considerations for detailed discussion of potential misuse and mitigation strategies.
-
----
-
-## License
-
-This repository is released under a Restricted Academic Use Agreement. The data and code are provided for non-commercial research purposes only. Redistribution requires explicit permission from the authors.

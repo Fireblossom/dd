@@ -1,0 +1,11 @@
+{
+  "self_correction_stage2": {
+    "file_name": "self_correction_stage2.jsonl",
+    "columns": {
+      "system": "system",
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
